@@ -12,13 +12,13 @@ namespace HelloPullRequest.Controllers
         // GET: api/Values
         public IEnumerable<string> Get()
         {
-            return new string[] { "value1", "value2", "Value3" };
+            return new string[] { Guid.NewGuid().ToString(), Guid.NewGuid().ToString(), Guid.NewGuid().ToString() };
         }
 
         // GET: api/Values/5
         public string Get(int id)
         {
-            return "value";
+            return Guid.NewGuid().ToString();
         }
 
         // POST: api/Values
