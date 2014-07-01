@@ -26,5 +26,12 @@ namespace HelloPullRequest.Controllers
 
             return View();
         }
+
+        public ActionResult WaitForIt()
+        {
+            ViewBag.Message = "Legendary.";
+
+            return View();
+        }
     }
 }
