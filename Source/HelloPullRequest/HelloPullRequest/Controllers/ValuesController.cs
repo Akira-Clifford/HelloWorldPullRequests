@@ -18,7 +18,7 @@ namespace HelloPullRequest.Controllers
         // GET: api/Values/5
         public string Get(int id)
         {
-            return Guid.NewGuid().ToString();
+            return "{D9019E61-9B3C-438A-8D09-88EE1C1D26F1}";
         }
 
         // POST: api/Values
