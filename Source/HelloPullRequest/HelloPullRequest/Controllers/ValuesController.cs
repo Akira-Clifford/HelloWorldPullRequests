@@ -24,16 +24,19 @@ namespace HelloPullRequest.Controllers
         // POST: api/Values
         public void Post([FromBody]string value)
         {
+            throw new NotImplementedException("TODO");
         }
 
         // PUT: api/Values/5
         public void Put(int id, [FromBody]string value)
         {
+            throw new NotImplementedException("TODO");
         }
 
         // DELETE: api/Values/5
         public void Delete(int id)
         {
+            throw new NotImplementedException("TODO");
         }
     }
 }
