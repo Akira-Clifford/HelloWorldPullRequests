@@ -15,7 +15,7 @@ namespace HelloPullRequest.Controllers
 
         public ActionResult About()
         {
-            ViewBag.Message = "Your application description page.";
+            ViewBag.Message = "Welcome to our greatest site ever.";
 
             return View();
         }
@@ -23,6 +23,13 @@ namespace HelloPullRequest.Controllers
         public ActionResult Contact()
         {
             ViewBag.Message = "Your contact page.";
+
+            return View();
+        }
+
+        public ActionResult WaitForIt()
+        {
+            ViewBag.Message = "Legendary.";
 
             return View();
         }
