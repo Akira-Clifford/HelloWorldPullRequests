@@ -18,7 +18,21 @@ namespace HelloPullRequest.Controllers
         // GET: api/Values/5
         public string Get(int id)
         {
-            return "{D9019E61-9B3C-438A-8D09-88EE1C1D26F1}";
+            Random rnd = new Random();
+            int val = rnd.Next(0, 3);
+
+            if (val == 0)
+            {
+                return Guid.NewGuid().ToString();
+            }
+            else if (val == 1)
+            {
+                return Guid.Empty.ToString();
+            }
+            else 
+            {
+                throw new Exception("Awww unlucky roll of the dice.");
+            }
         }
 
         // POST: api/Values
