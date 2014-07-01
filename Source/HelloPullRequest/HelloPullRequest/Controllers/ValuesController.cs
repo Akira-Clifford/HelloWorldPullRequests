@@ -23,7 +23,7 @@ namespace HelloPullRequest.Controllers
 
             if (val == 0)
             {
-                return Guid.NewGuid().ToString();
+                return Guid.NewGuid().ToString() + "____" + Guid.NewGuid().ToString();
             }
             else if (val == 1)
             {
